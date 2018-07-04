@@ -1,0 +1,34 @@
+# VSCode
+.vscode 
+tsconfig.json 
+jsconfig.json 
+bundles/
+package-lock.json
+
+# visual studio code 
+.history
+
+# mac 
+*._*
+
+# node.js
+#
+node_modules/
+
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea
+yarn.lock
+package-lock.json
+*bak
+
+# production
+/dist

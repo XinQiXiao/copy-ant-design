@@ -1,0 +1,19 @@
+{
+  "name": "copy-ant-design",
+  "version": "0.0.1",
+  "description": "A demo for learning ant-design-pro.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env ESLINT=none roadhog dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XinQiXiao/copy-ant-design.git"
+  },
+  "author": "XinQi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XinQiXiao/copy-ant-design/issues"
+  },
+  "homepage": "https://github.com/XinQiXiao/copy-ant-design#readme"
+}
