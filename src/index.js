@@ -22,4 +22,5 @@ app.router(router)
 // 5. Start
 app.start('#root')
 
+// console.log('src index app=>', app)
 export default app._store
