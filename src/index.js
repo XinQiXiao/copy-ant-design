@@ -5,6 +5,9 @@ import createHistory from 'history/createHashHistory'
 import './index.less'
 import router from './router'
 
+// models
+import { globalModel } from './models'
+
 // 1. Initialize
 const app = dva({
 	history: createHistory()
@@ -14,7 +17,7 @@ const app = dva({
 app.use({})
 
 // 3. Register global model
-// app.model()
+app.model(globalModel)
 
 // 4. Router
 app.router(router)

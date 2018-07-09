@@ -1,5 +1,6 @@
 import { getRouterData } from './router'
-
+import { getMenuData } from './menu'
 export {
-	getRouterData
+	getRouterData,
+	getMenuData,
 }
