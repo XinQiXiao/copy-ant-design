@@ -8,8 +8,13 @@ import dynamic from 'dva/dynamic'
 import { HomePage, DemoPage } from './routes/demo'
 import { getRouterData } from './common'
 
+// util
+import { Authorized } from './utils'
+
 // style
 import styles from './index.less'
+
+console.log('router root Authorized=>', Authorized)
 
 // const
 const { ConnectedRouter } = routerRedux 
@@ -19,6 +24,8 @@ dynamic.setDefaultLoadingComponent(()=>{
 
 function RouterConfig({history, app}){
 	const routerData = getRouterData(app)
+	console.log('router root RouterConfig routerData=>', routerData)
+	const BasicLayout = routerData['/'].component
 	return (
 		<LocaleProvider locale={zhCN}>
 			<ConnectedRouter history={history}>
